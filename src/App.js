@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './tesla_logo.png';
 import './App.css';
 import Tesla from './Tesla';
+import Chevy from './Chevy'
+import Maserati from './Maserati'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         </a>
       </header>
       <Tesla />
+      <Chevy />
+      <Maserati />
     </div>
   );
 }
